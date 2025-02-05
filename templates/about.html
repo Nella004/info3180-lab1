@@ -3,10 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <title>My Website - About</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/app.css') }}" />
+
 </head>
 <body>
     <h1>Jhanel Lalor</h1> 
     <p>I am a computer science student who is passionate about technology and fashion. 
         I love creating content and building projects that merge creativity with technology.</p>
+    <img src="{{ url_for('static', filename='images/https://napse.global/wp-content/uploads/2021/04/Diseno-sin-titulo-34.jpg') }}" alt="My Photo">
+
 </body>
 </html>
